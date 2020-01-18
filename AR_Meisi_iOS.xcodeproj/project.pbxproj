@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,11 @@
 		1523BAB323D2E96E00D9398E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1523BAB123D2E96E00D9398E /* LaunchScreen.storyboard */; };
 		1523BABE23D2E96F00D9398E /* AR_Meisi_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523BABD23D2E96F00D9398E /* AR_Meisi_iOSTests.swift */; };
 		1523BAC923D2E96F00D9398E /* AR_Meisi_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1523BAC823D2E96F00D9398E /* AR_Meisi_iOSUITests.swift */; };
+		156B96FC23D316E00095F28F /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B96FB23D316E00095F28F /* UserModel.swift */; };
+		156B96FE23D367900095F28F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B96FD23D367900095F28F /* RegisterViewController.swift */; };
+		34F75944BA5C13970CBBE163 /* Pods_AR_Meisi_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78A15E164FBD2EF6E91D598 /* Pods_AR_Meisi_iOS.framework */; };
+		59772411C39F548C82105D05 /* Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3722184C13219C95F44E1E0D /* Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework */; };
+		EC72CF89493418FDE84A7ED8 /* Pods_AR_Meisi_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D51A6E1E96C146A10902EEF7 /* Pods_AR_Meisi_iOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		036A782B6AF3AB1172757D24 /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		043B8671894C2E30E6043B52 /* Pods-AR_Meisi_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOSTests.release.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOSTests/Pods-AR_Meisi_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		1523BAA023D2E96800D9398E /* AR_Meisi_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AR_Meisi_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1523BAA323D2E96800D9398E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1523BAA523D2E96800D9398E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,16 @@
 		1523BAC423D2E96F00D9398E /* AR_Meisi_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AR_Meisi_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1523BAC823D2E96F00D9398E /* AR_Meisi_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR_Meisi_iOSUITests.swift; sourceTree = "<group>"; };
 		1523BACA23D2E96F00D9398E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1523BAD923D2EC7600D9398E /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		156B96FB23D316E00095F28F /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		156B96FD23D367900095F28F /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3722184C13219C95F44E1E0D /* Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		666E14554D6EE304BF46AE5E /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A406AB85A782289AFA900DA /* Pods-AR_Meisi_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOS.release.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOS/Pods-AR_Meisi_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D4811257BD83CDFA4C42294 /* Pods-AR_Meisi_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOSTests/Pods-AR_Meisi_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D51A6E1E96C146A10902EEF7 /* Pods_AR_Meisi_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Meisi_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF88A339805811501136717C /* Pods-AR_Meisi_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AR_Meisi_iOS.debug.xcconfig"; path = "Target Support Files/Pods-AR_Meisi_iOS/Pods-AR_Meisi_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F78A15E164FBD2EF6E91D598 /* Pods_AR_Meisi_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AR_Meisi_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34F75944BA5C13970CBBE163 /* Pods_AR_Meisi_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC72CF89493418FDE84A7ED8 /* Pods_AR_Meisi_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +91,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59772411C39F548C82105D05 /* Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D48D68ACB7F7FCB9DD8E53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF88A339805811501136717C /* Pods-AR_Meisi_iOS.debug.xcconfig */,
+				6A406AB85A782289AFA900DA /* Pods-AR_Meisi_iOS.release.xcconfig */,
+				666E14554D6EE304BF46AE5E /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.debug.xcconfig */,
+				036A782B6AF3AB1172757D24 /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.release.xcconfig */,
+				9D4811257BD83CDFA4C42294 /* Pods-AR_Meisi_iOSTests.debug.xcconfig */,
+				043B8671894C2E30E6043B52 /* Pods-AR_Meisi_iOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		1523BA9723D2E96800D9398E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				1523BABC23D2E96F00D9398E /* AR_Meisi_iOSTests */,
 				1523BAC723D2E96F00D9398E /* AR_Meisi_iOSUITests */,
 				1523BAA123D2E96800D9398E /* Products */,
+				1523BAD823D2EC7600D9398E /* Frameworks */,
+				05D48D68ACB7F7FCB9DD8E53 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +136,7 @@
 		1523BAA223D2E96800D9398E /* AR_Meisi_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				156B96FD23D367900095F28F /* RegisterViewController.swift */,
 				1523BAA323D2E96800D9398E /* AppDelegate.swift */,
 				1523BAA523D2E96800D9398E /* SceneDelegate.swift */,
 				1523BAA723D2E96800D9398E /* ViewController.swift */,
@@ -109,6 +145,7 @@
 				1523BAB123D2E96E00D9398E /* LaunchScreen.storyboard */,
 				1523BAB423D2E96E00D9398E /* Info.plist */,
 				1523BAAC23D2E96800D9398E /* AR_Meisi_iOS.xcdatamodeld */,
+				156B96FB23D316E00095F28F /* UserModel.swift */,
 			);
 			path = AR_Meisi_iOS;
 			sourceTree = "<group>";
@@ -131,6 +168,17 @@
 			path = AR_Meisi_iOSUITests;
 			sourceTree = "<group>";
 		};
+		1523BAD823D2EC7600D9398E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1523BAD923D2EC7600D9398E /* Cartfile */,
+				F78A15E164FBD2EF6E91D598 /* Pods_AR_Meisi_iOS.framework */,
+				3722184C13219C95F44E1E0D /* Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests.framework */,
+				D51A6E1E96C146A10902EEF7 /* Pods_AR_Meisi_iOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1523BACD23D2E96F00D9398E /* Build configuration list for PBXNativeTarget "AR_Meisi_iOS" */;
 			buildPhases = (
+				AA30AA1FDAA1C8F8DE9F48C8 /* [CP] Check Pods Manifest.lock */,
 				1523BA9C23D2E96800D9398E /* Sources */,
 				1523BA9D23D2E96800D9398E /* Frameworks */,
 				1523BA9E23D2E96800D9398E /* Resources */,
+				F3446170F593BB5C56FB0427 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1523BAD023D2E96F00D9398E /* Build configuration list for PBXNativeTarget "AR_Meisi_iOSTests" */;
 			buildPhases = (
+				CBAF56379DEACD0C5A49DCAB /* [CP] Check Pods Manifest.lock */,
 				1523BAB523D2E96F00D9398E /* Sources */,
 				1523BAB623D2E96F00D9398E /* Frameworks */,
 				1523BAB723D2E96F00D9398E /* Resources */,
@@ -173,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1523BAD323D2E96F00D9398E /* Build configuration list for PBXNativeTarget "AR_Meisi_iOSUITests" */;
 			buildPhases = (
+				AC825D519F7295B373853467 /* [CP] Check Pods Manifest.lock */,
 				1523BAC023D2E96F00D9398E /* Sources */,
 				1523BAC123D2E96F00D9398E /* Frameworks */,
 				1523BAC223D2E96F00D9398E /* Resources */,
+				7CF1E99112949E30A276E66B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +310,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7CF1E99112949E30A276E66B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA30AA1FDAA1C8F8DE9F48C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR_Meisi_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC825D519F7295B373853467 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBAF56379DEACD0C5A49DCAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AR_Meisi_iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3446170F593BB5C56FB0427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS/Pods-AR_Meisi_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS/Pods-AR_Meisi_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AR_Meisi_iOS/Pods-AR_Meisi_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1523BA9C23D2E96800D9398E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +421,8 @@
 				1523BAAE23D2E96800D9398E /* AR_Meisi_iOS.xcdatamodeld in Sources */,
 				1523BAA823D2E96800D9398E /* ViewController.swift in Sources */,
 				1523BAA423D2E96800D9398E /* AppDelegate.swift in Sources */,
+				156B96FE23D367900095F28F /* RegisterViewController.swift in Sources */,
+				156B96FC23D316E00095F28F /* UserModel.swift in Sources */,
 				1523BAA623D2E96800D9398E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,7 +594,9 @@
 		};
 		1523BACE23D2E96F00D9398E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF88A339805811501136717C /* Pods-AR_Meisi_iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
@@ -454,7 +614,9 @@
 		};
 		1523BACF23D2E96F00D9398E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A406AB85A782289AFA900DA /* Pods-AR_Meisi_iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
@@ -472,8 +634,9 @@
 		};
 		1523BAD123D2E96F00D9398E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D4811257BD83CDFA4C42294 /* Pods-AR_Meisi_iOSTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
@@ -494,8 +657,9 @@
 		};
 		1523BAD223D2E96F00D9398E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 043B8671894C2E30E6043B52 /* Pods-AR_Meisi_iOSTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
@@ -516,8 +680,9 @@
 		};
 		1523BAD423D2E96F00D9398E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 666E14554D6EE304BF46AE5E /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
 				INFOPLIST_FILE = AR_Meisi_iOSUITests/Info.plist;
@@ -536,8 +701,9 @@
 		};
 		1523BAD523D2E96F00D9398E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 036A782B6AF3AB1172757D24 /* Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MW367N4B;
 				INFOPLIST_FILE = AR_Meisi_iOSUITests/Info.plist;
