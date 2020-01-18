@@ -1,6 +1,0 @@
-framework module Pods_AR_Meisi_iOS_AR_Meisi_iOSUITests {
-  umbrella header "Pods-AR_Meisi_iOS-AR_Meisi_iOSUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
